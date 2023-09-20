@@ -33,12 +33,12 @@ function App() {
         </div>
         <div className="layout-column w-30">
           <Search setSearchText={setSearchText} />
-          {sortedFilteredMovies.length ? (
-            <Movieslist movies={sortedFilteredMovies} />
-          ) : (
+          {sortedFilteredMovies.length === 0 && movies.length > 0 ? (
             <div data-testid="noResult">
               <h3 className="text-center">No Results Found</h3>
             </div>
+          ) : (
+            <Movieslist movies={sortedFilteredMovies} />
           )}
         </div>
       </div>

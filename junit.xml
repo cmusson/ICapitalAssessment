@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="5" errors="0" time="3.978">
+  <testsuite name="Favorite Movie Directory" errors="0" failures="5" skipped="0" timestamp="2023-09-20T15:11:11" time="1.96" tests="11">
+    <testcase classname="Favorite Movie Directory should not initially show the no result message or list" name="Favorite Movie Directory should not initially show the no result message or list" time="0.059">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div data-testid=&quot;noResult&quot;&gt;&lt;h3 class=&quot;text-center&quot;&gt;No Results Found&lt;/h3&gt;&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/src/App.test.js:68:27)
+    at Promise.then.completed (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Favorite Movie Directory should add a row with valid data and not show the no result message" name="Favorite Movie Directory should add a row with valid data and not show the no result message" time="0.043">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div data-testid=&quot;noResult&quot;&gt;&lt;h3 class=&quot;text-center&quot;&gt;No Results Found&lt;/h3&gt;&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/src/App.test.js:75:27)
+    at Promise.then.completed (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Favorite Movie Directory should not add the row if name or ratings or duration is empty" name="Favorite Movie Directory should not add the row if name or ratings or duration is empty" time="0.052">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 1
+Received: 3
+    at Object.&lt;anonymous&gt; (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/src/App.test.js:85:34)
+    at Promise.then.completed (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Favorite Movie Directory should add duration in hours if entered in minutes" name="Favorite Movie Directory should add duration in hours if entered in minutes" time="0.04">
+      <failure>Error: expect(received).toContain(expected) // indexOf
+
+Expected substring: &quot;2.8 Hrs&quot;
+Received string:    &quot;CasablancaRatings: 95/1002.83 Hrs&quot;
+    at Object.&lt;anonymous&gt; (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/src/App.test.js:91:42)
+    at Promise.then.completed (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Favorite Movie Directory should not add the row if data invalid" name="Favorite Movie Directory should not add the row if data invalid" time="0.034">
+    </testcase>
+    <testcase classname="Favorite Movie Directory should show alert message if duration data invalid" name="Favorite Movie Directory should show alert message if duration data invalid" time="0.024">
+    </testcase>
+    <testcase classname="Favorite Movie Directory should hide alert message after user starts typing in some input" name="Favorite Movie Directory should hide alert message after user starts typing in some input" time="0.02">
+    </testcase>
+    <testcase classname="Favorite Movie Directory should add multiple rows in sorted order" name="Favorite Movie Directory should add multiple rows in sorted order" time="0.055">
+      <failure>Error: expect(received).toContain(expected) // indexOf
+
+Expected substring: &quot;2 Hrs&quot;
+Received string:    &quot;Beauty and the BeastRatings: 86/1001.8 Hrs&quot;
+    at Object.&lt;anonymous&gt; (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/src/App.test.js:119:42)
+    at Promise.then.completed (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/Users/conno/projects/iCapital-test/452ca3b2-1d2e-4a8c-b99f-8e8e4fbcdc1a/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Favorite Movie Directory should start search when at least 2 characters are entered" name="Favorite Movie Directory should start search when at least 2 characters are entered" time="0.045">
+    </testcase>
+    <testcase classname="Favorite Movie Directory should filter movies by starting characters" name="Favorite Movie Directory should filter movies by starting characters" time="0.073">
+    </testcase>
+    <testcase classname="Favorite Movie Directory should show no result message and not show list when the search returns no match" name="Favorite Movie Directory should show no result message and not show list when the search returns no match" time="0.055">
+    </testcase>
+  </testsuite>
+</testsuites>

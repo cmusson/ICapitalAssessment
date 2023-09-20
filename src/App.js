@@ -20,6 +20,10 @@ function App() {
     movie.name.toLowerCase().startsWith(searchText.toLowerCase())
   );
 
+  const sortedFilteredMovies = filteredMovies.sort(
+    (a, b) => b.duration - a.duration
+  );
+
   return (
     <div>
       <h8k-navbar header={title} />
@@ -30,7 +34,7 @@ function App() {
         <div className="layout-column w-30">
           <Search setSearchText={setSearchText} />
           {filteredMovies.length ? (
-            <Movieslist movies={filteredMovies} />
+            <Movieslist movies={sortedFilteredMovies} />
           ) : (
             <div data-testid="noResult">
               <h3 className="text-center">No Results Found</h3>

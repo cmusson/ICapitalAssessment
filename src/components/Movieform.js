@@ -13,7 +13,7 @@ function Movieform({ addMovie }) {
   const convertDuration = (time) => {
     if (time.slice(-1) === "m") {
       const minutes = parseFloat(time);
-      const timeHours = (minutes / 60).toFixed(2);
+      const timeHours = (minutes / 60).toFixed(1);
 
       return timeHours.toString();
     }
@@ -27,6 +27,10 @@ function Movieform({ addMovie }) {
       setDurationFormatCorrect(false);
       return;
     }
+
+    if (name === "") return;
+    if (ratings === "") return;
+    if (duration === "") return;
 
     addMovie(name, ratings, convertDuration(duration));
   };

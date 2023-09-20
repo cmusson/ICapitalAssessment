@@ -12,7 +12,6 @@ function App() {
 
   const addMovie = useCallback((name, ratings, duration) => {
     const movie = { name, ratings, duration };
-
     setMovies((previous) => [...previous, movie]);
   }, []);
 
@@ -33,7 +32,9 @@ function App() {
         </div>
         <div className="layout-column w-30">
           <Search setSearchText={setSearchText} />
-          {sortedFilteredMovies.length === 0 && movies.length > 0 ? (
+          {movies.length === 0 ? (
+            <></>
+          ) : sortedFilteredMovies.length === 0 && movies.length > 0 ? (
             <div data-testid="noResult">
               <h3 className="text-center">No Results Found</h3>
             </div>
